@@ -14,6 +14,9 @@
 -------
 먼저, 입력 이미지 데이터에 대해 68 Face Landmarks를 이용하여 68개의 특징점을 구함. 
 
+<img width="289" alt="image" src="https://github.com/mmmjii/2023_matlab_contest/assets/107604539/7d8a892b-e0de-431d-ac73-ba44b66b8da5">
+
+
 이러한 특징점을 활용하여 턱의 각도, 눈의 폭과 길이의 비율 등 모델에서 사용되는 특징들의 값을 계산. 
 
 특징값들을 기반으로 지도학습방법으로 학습된 머신러닝 모델이 유사한 하회탈을 추정함.
@@ -42,6 +45,7 @@
 
 
 #### 2.3 method
+
 
 #### 2.4 modeling
 + 2.4.1 RF
