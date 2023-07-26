@@ -53,7 +53,8 @@ F1과 F2는 각 눈의 높이를 해당 눈의 너비로 나눈 비율을 의미
 #### 2.4 modeling
 + 2.4.1 RF
 + 2.4.2 SVM_POLY
-+ 2.4.3 SVM_
++ 2.4.3 SVM_RBF
++ 2.4.4 CNN
 ### III. Results
 
 ### IV. Discussion
