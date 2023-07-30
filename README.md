@@ -112,6 +112,10 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
 
 ----------
 ### III. Results
+
+
+<img width="501" alt="image" src="https://github.com/mmmjii/2023_matlab_contest/assets/107604539/c0c62f04-afb7-4a36-a6d0-69914b7140da">
+
 ----------
 ### IV. Discussion
 ----------
