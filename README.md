@@ -114,19 +114,14 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
 
 
   Convolution ( kernel size: (3, 3), 32, activation : reLu)
-  
   Convolution ( kernel size: (3, 3), 32,activation : reLu)
-  
   MaxPooling( pool_size: (3,3) )
 
   
   Convolution ( kernel size: (3, 3), 32, activation : reLu)
-  
   MaxPooling( pool_size: (3,3) )
-
   
   FClayer(Dense: 200, activation: relu)
-  
   FClayer(Dense: 4, activation: softmax)
   
 
