@@ -53,13 +53,16 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
 
   하회탈 이미지에서 68 Face Landmarks 알고리즘은 68개의 랜드마크를 추출하지 못했습니다. 그 대신 Adobe Photoshop 프로그램을 사용하여 68개의 랜드마크를 직접 그리게 되었습니다. 따라서 하회탈 이미지에서도 동일한 6가지 특징이 추출되었습니다.
 + 2.3.2 Tal Labeling
-+ 2.3.3 Face Labeling
+
+  
 
 #### 2.4 modeling
 + 2.4.1 RF
 + 2.4.2 SVM_POLY
 + 2.4.3 SVM_RBF
-+ 2.4.4 CNN
++ 2.4.4 SVM_CEOC
++ 2.4.5 CNN
+
 
 ----------
 ### III. Results
