@@ -129,7 +129,8 @@ SVM_ECOC 모델은 정확도가 0.7566으로 나타났으며, SVM_POLY 모델은
 ----------
 ### IV. Discussion
 
-![image](https://github.com/mmmjii/2023_matlab_contest/assets/107604539/8c85141c-1618-4ea7-a673-b81da0ad32e0)
+![image](https://github.com/mmmjii/2023_matlab_contest/assets/107604539/9a32a9a0-8416-41d6-beee-3d61794b2089)
+
 
 
 
