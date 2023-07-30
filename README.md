@@ -42,7 +42,7 @@
 
 각 증강 기법당 2개의 랜덤 이미지를 증강하여 총 1 이미지당 10개의 증강 이미지가 생성되었습니다. 
 
-----------
+
 #### 2.3 method
 <img width="393" alt="image" src="https://github.com/mmmjii/2023_matlab_contest/assets/107604539/9b951ac7-0e9d-43b5-8ea7-4cc79ff997ed">
 
@@ -53,7 +53,7 @@ F1과 F2는 각 눈의 높이를 해당 눈의 너비로 나눈 비율을 의미
 + 2.3.1 Tal Feature Extraction
 + 2.3.2 Tal Labeling
 + 2.3.3 Face Labeling
-----------
+
 #### 2.4 modeling
 + 2.4.1 RF
 + 2.4.2 SVM_POLY
