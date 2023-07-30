@@ -104,19 +104,29 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
   이를 활용해, 얼굴 이미지를 하회탈 4종류로 분류하는 CNN 모델을 훈련시켰습니다. 
   
   	우리가 만든 CNN의 모델 구조는 다음과 같습니다.
+
   Convolution ( kernel size: (3, 3), 8, activation : reLu)
+  
   Convolution ( kernel size: (3, 3), 16,activation : reLu)
+  
   MaxPooling( pool_size: (3,3) )
   
-  
+
+
   Convolution ( kernel size: (3, 3), 32, activation : reLu)
+  
   Convolution ( kernel size: (3, 3), 32,activation : reLu)
+  
   MaxPooling( pool_size: (3,3) )
+
   
   Convolution ( kernel size: (3, 3), 32, activation : reLu)
+  
   MaxPooling( pool_size: (3,3) )
+
   
   FClayer(Dense: 200, activation: relu)
+  
   FClayer(Dense: 4, activation: softmax)
   
 
