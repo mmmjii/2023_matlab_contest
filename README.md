@@ -112,3 +112,16 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
 ### V. Conclusion
 ----------
 ### References
+
+[1] Andong Hahoe Village. Hahoe mask. http://www.hahoe.or.kr/coding/sub3/sub1.asp. Last accessed on 11th May, 2023.
+
+[2] Doosan Encyclopedia. Hahoe Byeolsingut Tallori. https://terms.naver.com/entry.naver?docId=1160831&cid=40942&categoryId=32171. Last accessed on 11th May, 2023.
+
+[3] matplotlib. Matplotlib [internet]. https://matplotlib.org/. Last accessed on 5th June, 2023.
+
+[4] Naver Knowledge Encyclopedia. Hahoe mask. https://terms.naver.com/entry.naver?docId=935040&cid=43667&categoryId=43667. Last accessed on 5th June, 2023.
+
+[5] OpenCV Team. OpenCV library [Internet]. https://opencv.org/. Last accessed on 5th May, 2023.
+
+[6] Song, Mi-Young et al. (2004) A Study on Women's Face Types Classification  and Shape Differences. Fashion Business. Vol 8, No. 1, pp.76-90.
+
