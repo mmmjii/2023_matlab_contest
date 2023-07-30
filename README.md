@@ -100,8 +100,25 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
 
 + 2.4.3 CNN
 
-   CNN은 합성곱 신경망(Convolutional Neural Network)의 약자로, 주로 이미지 처리와 패턴 인식에 사용되는 딥러닝 모델입니다. 합성곱과 풀링 등의 계층을 통해 이미지 특징을 추출하며, 전체 이미지를 한 번에 처리하는 대신 지역적 정보를 고려하여 효율적으로 학습하고, 이미지의 변화에 더 강인한 특성을 갖습니다. 
+     CNN은 합성곱 신경망(Convolutional Neural Network)의 약자로, 주로 이미지 처리와 패턴 인식에 사용되는 딥러닝 모델입니다. 합성곱과 풀링 등의 계층을 통해 이미지 특징을 추출하며, 전체 이미지를 한 번에 처리하는 대신 지역적 정보를 고려하여 효율적으로 학습하고, 이미지의 변화에 더 강인한 특성을 갖습니다. 
   이를 활용해, 얼굴 이미지를 하회탈 4종류로 분류하는 CNN 모델을 훈련시켰습니다. 
+  
+  	우리가 만든 CNN의 모델 구조는 다음과 같습니다.
+  Convolution ( kernel size: (3, 3), 8, activation : reLu)
+  Convolution ( kernel size: (3, 3), 16,activation : reLu)
+  MaxPooling( pool_size: (3,3) )
+  
+  
+  Convolution ( kernel size: (3, 3), 32, activation : reLu)
+  Convolution ( kernel size: (3, 3), 32,activation : reLu)
+  MaxPooling( pool_size: (3,3) )
+  
+  Convolution ( kernel size: (3, 3), 32, activation : reLu)
+  MaxPooling( pool_size: (3,3) )
+  
+  FClayer(Dense: 200, activation: relu)
+  FClayer(Dense: 4, activation: softmax)
+  
 
 
 ----------
