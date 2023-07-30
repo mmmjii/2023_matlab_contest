@@ -104,6 +104,7 @@ F1는 이마쪽 사잇각 기준으로 한 눈 사이 각도를 의미합니다.
   이를 활용해, 얼굴 이미지를 하회탈 4종류로 분류하는 CNN 모델을 훈련시켰습니다. 
   
   	우리가 만든 CNN의 모델 구조는 다음과 같습니다.
+  
    <img width="352" alt="image" src="https://github.com/mmmjii/2023_matlab_contest/assets/107604539/d9ba2784-a267-4350-99ff-fa3ec5c8088d">
 
   
