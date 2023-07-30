@@ -12,10 +12,8 @@
 ### Ⅱ. Data and Method
 #### 2.1 Overall Model Organization
 본 프로젝트에서 고안한 '유사한 하회탈 추정 모델'은 다음과 같이 구성되어 있다
+![4dZRKsIgPJ4m0GIV8HrIamEzxESP5fD1GT6gRufRK8e6Si9s-sH5VFayZ9oNvwNgLASxzJbIBI2bw0yIeaEHilJf6zFb33gwdlTpX7JgO6IpdYgnC-3A--VW-_cb](https://github.com/mmmjii/2023_matlab_contest/assets/107604539/d63e1889-4de1-4a3e-b828-1e8926e02eb3)
 
--------
-이 부분에 전체적인 모델 구조도 추가 예정
--------
 먼저, 입력 이미지 데이터에 대해 68 Face Landmarks를 이용하여 68개의 특징점을 구함. 
 
 <img width="289" alt="image" src="https://github.com/mmmjii/2023_matlab_contest/assets/107604539/7d8a892b-e0de-431d-ac73-ba44b66b8da5">
