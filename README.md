@@ -129,7 +129,8 @@ SVM_ECOC 모델은 정확도가 0.7566으로 나타났으며, SVM_POLY 모델은
 ----------
 ### IV. Discussion
 
-![알 수 없음](https://github.com/mmmjii/2023_matlab_contest/assets/107604539/0d627186-95e4-4ede-804b-0cb534712a8c)
+![image](https://github.com/mmmjii/2023_matlab_contest/assets/107604539/8c85141c-1618-4ea7-a673-b81da0ad32e0)
+
 
 
 CNN 모델의 그래프 시각화를 통해 검증 세트의 정확도가 학습 세트의 정확도와 함께 계속 상승하는 양상을 확인할 수 있었습니다. 또한, 두 손실 함수가 비슷한 양상으로 감소하고 있었습니다. 이러한 사실들을 종합적으로 고려하면 모델이 잘 학습되었다고 판단할 수 있습니다.
