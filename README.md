@@ -14,14 +14,8 @@
 본 프로젝트에서 고안한 '유사한 하회탈 추정 모델'은 다음과 같이 구성되어 있다
 ![4dZRKsIgPJ4m0GIV8HrIamEzxESP5fD1GT6gRufRK8e6Si9s-sH5VFayZ9oNvwNgLASxzJbIBI2bw0yIeaEHilJf6zFb33gwdlTpX7JgO6IpdYgnC-3A--VW-_cb](https://github.com/mmmjii/2023_matlab_contest/assets/107604539/d63e1889-4de1-4a3e-b828-1e8926e02eb3)
 
-먼저, 입력 이미지 데이터에 대해 68 Face Landmarks를 이용하여 68개의 특징점을 구함. 
+먼저, 입력 이미지 데이터에 대해 68 Face Landmarks를 이용하여 68개의 특징점을 구한다. 이러한 특징점을 활용하여 턱의 각도, 눈의 폭과 길이의 비율 등 모델에서 사용되는 특징들의 값을 계산한다. 특징값들을 기반으로 지도학습방법으로 학습된 머신러닝 모델이 유사한 하회탈을 추정한다.
 
-<img width="289" alt="image" src="https://github.com/mmmjii/2023_matlab_contest/assets/107604539/7d8a892b-e0de-431d-ac73-ba44b66b8da5">
-
-
-이러한 특징점을 활용하여 턱의 각도, 눈의 폭과 길이의 비율 등 모델에서 사용되는 특징들의 값을 계산. 
-
-특징값들을 기반으로 지도학습방법으로 학습된 머신러닝 모델이 유사한 하회탈을 추정함.
 
 #### 2.2 data
 데이터 출처 : https://www.kaggle.com/datasets/atulanandjha/lfwpeople
